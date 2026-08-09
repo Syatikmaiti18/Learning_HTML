@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit.php" method="post">
+        <label for="UserName">UserName:</label>
+        <br><input type="text" id="UserName" placeholder="Enter mobile No. or email id" required="true"><br><br>
+
+        <label for="Password">Password:</label>
+        <br><input type="password" id="Password" placeholder="Enter password" required="true"><br><br>
+
+
+        <!--Different types of input tag-->
+
+        <label for="Date">Date</label>
+        <br><input type="datetime-local" id="Date"><br><br>
+
+        <label for="File">File</label>
+        <br><input type="file" id="File"><br><br>
+
+        <label for="color">Color</label>
+        <br><input type="color" id="color"><br><br>
+
+        <label for="range">Range</label>
+        <br><input type="range" id="range"><br><br>
+
+        <label for="Button">press here</label>
+        <br><input type="button" id="Button" value="Button"><br><br>
+
+        <label for="Submit">Click here</label>
+        <br><input type="submit" id="Submit"><br><br>
+
+
+        <!--Radio type-->
+
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="Male"><br><br>
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="Female"><br><br>
+
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="Other"><br><br>
+        
+
+        <!--Checkbox type-->
+
+        <label for="c">C</label>
+        <input type="checkbox" id="c" name="language" value="C"><br><br>
+
+        <label for="java">Java</label>
+        <input type="checkbox" id="java" name="language" value="Java"><br><br>
+
+        <label for="python">Python</label>
+        <input type="checkbox" id="python" name="language" value="Python"><br><br>
+
+
+        <!--select type-->
+
+        <label for="country">Select your country</label>
+        <select name="country" id="country">
+            <option value="" selected disabled>Enter country</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Other">Other</option>
+        </select>
+
+
+        <br><br>
+        <!--textbox-->
+         
+        <textarea name="story" id="story" style="text-align: center;" rows="4" cols="50" placeholder="default text here"></textarea>
+                
+    </form>
+</body>
+</html>
